@@ -4,8 +4,8 @@ test("inputs 'string' expects 'gnirts'", () => {
   expect(reverseString("string")).toBe("gnirts");
 });
 
-test("inputs 'hello world' expects 'dlorw olleh'", () => {
-  expect(reverseString("hello world")).toBe("dlorw olleh");
+test("inputs 'hello world' expects 'dlrow olleh'", () => {
+  expect(reverseString("hello world")).toBe("dlrow olleh");
 });
 
 test("inputs 'Test Input' expects 'tupnI tseT'", () => {
