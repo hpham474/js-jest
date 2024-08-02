@@ -9,5 +9,5 @@ test("inputs 'HeLLo' and shift by 3 expects 'KhOOr'", () => {
 });
 
 test("inputs 'Hello, World!' and shifts by 3 expects 'Khoor, Zruog!'", () => {
-  expect(caesarCipher("Hello, World!")).toBe("Khoor, Zruog!");
+  expect(caesarCipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
 });
