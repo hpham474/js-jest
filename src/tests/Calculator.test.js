@@ -41,7 +41,7 @@ test("calculate 11 / 0 to be infinity", () => {
 // multiply
 test("calculate 24 * 3 to be 72", () => {
   const calc = new Calculator();
-  expect(calc.multiply(16, 4)).toBe(4);
+  expect(calc.multiply(24, 3)).toBe(72);
 });
 
 test("calculate 12 * 0 to be 0", () => {
