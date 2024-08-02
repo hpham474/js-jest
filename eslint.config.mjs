@@ -7,4 +7,9 @@ export default [
   {
     ignores: ["webpack.common.js", "webpack.dev.js", "webpack.prod.js"],
   },
+  {
+    env: {
+      jest: true,
+    },
+  },
 ];
